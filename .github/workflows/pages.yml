@@ -36,8 +36,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          source: ./dist
-          destination: ./_site
+          path: './dist'
 
   # Deployment job
   deploy:
