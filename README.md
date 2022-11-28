@@ -30,7 +30,12 @@ This is a little nodejs rest api that will return a badge for GitHub of active i
 
 ### For GitHub
 
-[![hacs_badge](https://badge.t-haber.de/badge/better_thermostat)]()
+[![hacs_badge](https://kartoffeltoby.github.io/hacs-statistics-badge/badge.svg)]()
 ```md
     [![hacs_badge](http://localhost:3000/badge/better_thermostat)]()
 ```
+
+### Using GitHub Actions
+Look the config from this repo path after deploy to the badge is /badge.svg
+
+like: ``https://kartoffeltoby.github.io/hacs-statistics-badge/badge.svg``
