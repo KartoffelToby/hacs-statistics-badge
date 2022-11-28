@@ -1,0 +1,17 @@
+version: '3.7'
+services:
+  badge:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    networks:
+    - caddy
+    environment:
+      NODE_ENV: production
+    labels:
+      caddy.reverse_proxy: "{{upstreams 3000}}"
+      caddy: badge.t-haber.de
+
+networks:
+  caddy:
+    external: true
