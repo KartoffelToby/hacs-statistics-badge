@@ -4,14 +4,8 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    networks:
-    - caddy
+    ports:
+      - 3000:3000
     environment:
       NODE_ENV: production
-    labels:
-      caddy.reverse_proxy: "{{upstreams 3000}}"
-      caddy: badge.t-haber.de
 
-networks:
-  caddy:
-    external: true
