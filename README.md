@@ -1,4 +1,4 @@
-# Active installations badge for HACS
+# Active installations badge for HACS!
 
 This is a little nodejs rest api that will return a badge for GitHub of active installations for a given HACS integration.
 
