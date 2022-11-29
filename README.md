@@ -36,6 +36,6 @@ This is a little nodejs rest api that will return a badge for GitHub of active i
 ```
 
 ### Using GitHub Actions
-Look the config from this repo path after deploy to the badge is /badge.svg?cache=1
+Look the config from this repo path after deploy to the badge is yourdomain.?cache=1
 
-like: ``https://kartoffeltoby.github.io/hacs-statistics-badge/badge.svg?cache=1``
+like: ``https://kartoffeltoby.github.io/hacs-statistics-badge/?cache=1``
